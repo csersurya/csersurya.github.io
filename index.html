@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>PhonepeNews</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-fixed/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .social {
+        padding: 8px;
+      }
+
+      .news_title:hover {
+        background-color:#FF9933;
+        text-decoration:none;
+      }
+
+      .news_title {
+        text-decoration:none;
+      }
+          
+      .divider {
+        width: 100%;
+        border: 1px;
+        height: 1px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+
+      </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c5c72bef3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+<nav class="navbar navbar-expand-md navbar fixed-top bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">PhonepeNews</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Latest News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Viral News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Auto & Tech</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Astrology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lifestyle</a>
+        </li>
+      </ul>
+      <div class="d-flex" role="search">
+        <span class="social"><i class="fab fa-facebook-f"></i></span>
+        <span class="social"><i class="fab fa-twitter"></i></span>
+        <span class="social"><i class="fab fa-google"></i></span>
+        <span class="social"><i class="fab fa-instagram"></i></span>
+        <span class="social"><i class="fab fa-linkedin-in"></i></span>
+        <span class="social"><i class="fab fa-pinterest"></i></span>
+        <span class="social"><i class="fab fa-youtube"></i></span>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="container">
+
+  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+ 
+  <div class="card mb-9" style="max-width: 840px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-start" alt="">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="news_title" href="#"><h5 class="card-title">क्या डर गए हैं बादशाह, इसलिए लगा रहे हैं मक्का से लेकर वैष्णो देवी के चक्कर</h5></a>
+        <p class="card-text">एक वीडियो बहुत तेज़ी से वायरल में हो रहा है. वीडियो में काली हुड पहने एक शख्स बहुत तेज़ी से भीड़ को चीरते हुए आगे बढ़ रहा है. जानकारी के मुताबिक काले कपड़े पहने ये शख्स कोई और नहीं बल्कि बॉलीवुड के बादशाह...</p>
+        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="divider"></div>
+
+<div class="card mb-9" style="max-width: 840px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-start" alt="">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="news_title" href="#"><h5 class="card-title">10 साल के बच्चे की ऐसी बहादुरी देख हो जायेंगे हैरान</h5></a>
+        <p class="card-text">9 से 10 साल के बच्चे आमतौर खेल कूद में मस्त रहते हैं. वो अपनी दुनिया में ही खोए रहते हैं. लेकिन 10 साल के इस बच्चे की बहादुरी की अनोखी कहानी सुन और पढ़ कर आप...</p>
+        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="card mb-9" style="max-width: 840px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-start" alt="">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="news_title" href="#"><h5 class="card-title">हाय रब्बा, दीपिका का 'बेशरम रंग' देखा क्या !</h5></a>
+        <p class="card-text">दीपिका पादुकोण जल्द ही किंग खान यानी शाहरुख की फिल्म पठान (Pathan) में उनके साथ स्क्रीन शेयर करती नजर आने वाली हैं। इस फिल्म का गाना बेशरम रंग (Besharam Rang) काफी पहले ही...</p>
+        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</main>
+<footer class="pt-5 my-5 text-muted border-top">
+  <div class="container">PhonepeNews &copy; 2022</div>
+   
+  </footer>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+
+</html>
